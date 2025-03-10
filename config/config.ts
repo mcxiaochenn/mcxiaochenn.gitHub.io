@@ -16,6 +16,12 @@ const WEBSITE_SORTS: WebsiteSort[] = [
         icon: "",
       },
       {
+        title: "生日快乐！",
+        description: "生日快乐，臭宝！",
+        url: "https://mcxiaochen.top/srkl/index.html",
+        icon: "",
+      },
+      {
         title: "一加Ace3Pro的TWRP卡刷包",
         description: "适用于一加Ace3 Pro的TWRP卡刷包",
         url: "https://github.com/mcxiaochenn/OnePlusAce3Pro-TWRP-ROM",
@@ -143,7 +149,7 @@ const GLOBAL_CONFIG = {
   /**
    * 个人博客链接
    */
-  BLOG_URL: "https://mcxiaochen.icu/",
+  BLOG_URL: "https://mcxiaochen.top/",
   /**
    * 指定中心 LOGO 图片地址
    */
