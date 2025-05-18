@@ -28,9 +28,9 @@ const WEBSITE_SORTS: WebsiteSort[] = [
         icon: "",
       },
       {
-        title: "OKI_KernelSU-Next_SUSFS",
-        description: "使用Action自动编译一加KernelSU Next内核并手动发布稳定构建",
-        url: "https://github.com/mcxiaochenn/OKI_KernelSU-Next_SUSFS",
+        title: "Action_OKI_KernelSU_SUSFS",
+        description: "使用Github Action自动编译一加多种KernelSU分支内核并手动发布稳定构建",
+        url: "https://github.com/mcxiaochenn/Action_OKI_KernelSU_SUSFS",
         icon: "",
       },
     ],
@@ -60,7 +60,7 @@ const WEBSITE_SORTS: WebsiteSort[] = [
     sites: [
       {
         title: "Bilibili",
-        description: "Bilibili 哔哩哔哩: 不太打游戏的小尘",
+        description: "Bilibili 哔哩哔哩: 等等是小尘",
         url: "https://space.bilibili.com/123757127",
         icon: "images/logo/bilibili.svg",
       },
@@ -145,11 +145,11 @@ const GLOBAL_CONFIG = {
   /**
    * 博客名称
    */
-  BLOG_NAME: "mcxiaochenn-Blog",
+  BLOG_NAME: "mcxiaochenn-GitHub",
   /**
    * 个人博客链接
    */
-  BLOG_URL: "https://mcxiaochen.top/",
+  BLOG_URL: "https://github.com/mcxiaochenn",
   /**
    * 指定中心 LOGO 图片地址
    */
@@ -161,12 +161,12 @@ const GLOBAL_CONFIG = {
   /**
    * 背景图片地址
    */
-  BACKGROUND_IMG_URL: "https://www.dmoe.cc/random.php",
+  BACKGROUND_IMG_URL: "https://www.loliapi.com/acg/",
   /**
    * ICP 备案号，留空不显示
    */
   ICP: "因IKUN证114514号",
-  ICP_URL: "https://hk20020503.github.io/",
+  ICP_URL: "https://mcxiaochen.top/CXK/index.html",
   FOOTER_INFO: true,
   /**
    * 网站欢迎标语
