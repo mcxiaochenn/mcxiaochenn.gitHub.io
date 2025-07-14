@@ -16,42 +16,16 @@ const WEBSITE_SORTS: WebsiteSort[] = [
         icon: "",
       },
       {
-        title: "生日快乐！",
-        description: "生日快乐，臭宝！",
-        url: "https://mcxiaochen.top/srkl/index.html",
-        icon: "",
-      },
-      {
-        title: "一加Ace3Pro的TWRP卡刷包",
-        description: "适用于一加Ace3 Pro的TWRP卡刷包",
-        url: "https://github.com/mcxiaochenn/OnePlusAce3Pro-TWRP-ROM",
-        icon: "",
-      },
-      {
-        title: "Action_OKI_KernelSU_SUSFS",
-        description: "使用Github Action自动编译一加多种KernelSU分支内核并手动发布稳定构建",
+        title: "Oneplus Kernel Image",
+        description: "使用GA编译一加KSU分支内核并发布构建",
         url: "https://github.com/mcxiaochenn/Action_OKI_KernelSU_SUSFS",
         icon: "",
       },
-    ],
-  },
-  {
-    title: "凑数的Github项目",
-    sites: [
       {
-        title: "傻瓜下载器",
-        description: "一个简单的shell脚本让你无须在每次下载的时候手动输入代理地址",
-        url: "https://github.com/mcxiaochenn/easy-downloads-tool-for-shell",
-      },
-      {
-        title: "主页仓库",
-        description: "我那豪堪的主页！",
-        url: "https://github.com/mcxiaochenn/mcxiaochenn",
-      },
-      {
-        title: "网站仓库",
-        description: "My Blog. :D",
-        url: "https://github.com/mcxiaochenn/mcxiaochenn.gitHub.io",
+        title: "音乐解锁",
+        description: "移除已购音乐的加密保护。",
+        url: "https://mcxiaochen.top/musicunlock/index.html",
+        icon: "musicunlock/img/icons/favicon-32x32.png",
       },
     ],
   },
@@ -145,11 +119,11 @@ const GLOBAL_CONFIG = {
   /**
    * 博客名称
    */
-  BLOG_NAME: "mcxiaochenn-GitHub",
+  BLOG_NAME: "Xiaochen's Blog Index",
   /**
    * 个人博客链接
    */
-  BLOG_URL: "https://github.com/mcxiaochenn",
+  BLOG_URL: "https://mcxiaochen.top/blog",
   /**
    * 指定中心 LOGO 图片地址
    */
@@ -199,7 +173,7 @@ const GLOBAL_CONFIG = {
   TKD: {
     title: "Xiaochen's Blog Index",
     keywords: "Blog, Index, Index Page, Xiaochen, mcxiaochen, mcxioachenn, cdyxdxcClub",
-    description: "This is XiaoChen's blog index page. 这是小尘的博客页。",
+    description: "This is XiaoChen's blog index page. 这是小尘的博客跳转页。",
   },
 };
 
