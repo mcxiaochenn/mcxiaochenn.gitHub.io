@@ -5,6 +5,10 @@ goto: https://mcxiaochen.top/
 
 ## 更新日志
 
+### 2025/07/15 04:10
+- 换cf服务器了，绑顶级域名居然要改dns解析，偷懒直接GitHub301跳转了，如果访问优先www吧
+- https://github.com/mcxiaochenn/web301-mcxiaochen.top
+
 ### 2025/07/14 23:35
 - 修复一处命名问题
 
