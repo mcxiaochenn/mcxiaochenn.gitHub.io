@@ -119,7 +119,7 @@ const GLOBAL_CONFIG = {
   /**
    * 博客名称
    */
-  BLOG_NAME: "Xiaochen's Blog Index",
+  BLOG_NAME: "Xiaochen's Blog",
   /**
    * 个人博客链接
    */
