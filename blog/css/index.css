@@ -7589,7 +7589,7 @@ div#bannerGroup {
     border-radius: 8px 8px 0 0;
   }
 }
-#content-inner #recent-posts>.recent-post-item>.recent-post-info>.content {
+#content-inner #recent-posts > .recent-post-item > .recent-post-info > .content {
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
@@ -7601,13 +7601,12 @@ div#bannerGroup {
   -webkit-line-clamp: 2;
   line-height: 1.4;
   color: var(--anzhiyu-secondtext);
-  margin-top: 2px;
+  margin-top: 0.5rem;
   font-size: 14px;
-  opacity: 1;
-  -ms-filter: none;
-  filter: none;
-  height: 40px;
-  padding: 0px 32px;
+  opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+  height: 0;
 }
 #popup-window {
   min-width: 300px;

@@ -1801,6 +1801,8 @@ document.addEventListener("DOMContentLoaded", function () {
     anzhiyu.getCustomPlayList();
     anzhiyu.addEventListenerConsoleMusicList(false);
     anzhiyu.initPaginationObserver();
+    // 欢迎信息
+    NaoKuo.setWelcome_info();
 
     setTimeout(() => {
       setInputFocusListener();
