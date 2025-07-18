@@ -5,6 +5,9 @@ goto: https://mcxiaochen.top/
 
 ## 更新日志
 
+### 2025/07/18 13:03
+- ``anzhiyu``主题使用分路径体验不是很好，本仓库要拆分辣，新仓库-``Blog-hexo``
+
 ### 2025/07/15 04:10
 - 换cf服务器了，绑顶级域名居然要改dns解析，偷懒直接GitHub301跳转了，如果访问优先www吧
 - https://github.com/mcxiaochenn/web301-mcxiaochen.top
