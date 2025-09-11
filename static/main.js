@@ -65,7 +65,7 @@ $.ajax({
       autoplay: music_autoplay,
       order: music_order,
       listFolded: true,
-      volum: music_volume,
+      volume: music_volume,
       mini: music_fixed === true ? true : music_mini,
       lrcType: 3,
       preload: "auto",
