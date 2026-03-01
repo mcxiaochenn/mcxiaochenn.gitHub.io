@@ -21,14 +21,13 @@
     <!-- 自定义设置 -->
     <style>
         body {
-            /*背景图片URL 可使用随机图片API */
-            background-image: url("https://www.loliapi.com/acg/");
+            background-color: #111; /* 占位背景色 */
         }
 
         .photo-bg {
-            /* 卡片左侧图片 */
             background-size: cover;
             background-position: center;
+            background-color: #222; /* 占位色 */
         }
 
         .kz-video {
@@ -116,15 +115,13 @@
     <!-- aplayer -->
     <div id="aplayer-fixed" class="aplayer"></div>
     <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
-    <script src="./static/APlayer-1.10.1/dist/APlayer.min.js"></script>
-    <script src="./static/Meting.min.js"></script>
+    <script defer src="./static/APlayer-1.10.1/dist/APlayer.min.js"></script>
+    <script defer src="./static/Meting.min.js"></script>
     <!-- end_aplayer -->
     <script src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
     <script defer src="https://cdn.staticfile.org/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
     <script src="./static/layer-v3.5.1/layer/layer.js"></script>
 
-    <script src="./static/get-baisi.js"></script>
-
     <script src="./static/main.js"></script>
-
+    <script defer src="./static/async-loader.js"></script>
 </html>
