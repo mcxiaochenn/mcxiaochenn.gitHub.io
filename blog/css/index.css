@@ -1,0 +1,5 @@
+/*
+ * 结构性占位：上游 Head 固定输出 <link rel="stylesheet" href="/css/index.css">。
+ * Astro 侧的真实样式由站点 import 的 Stylus 经 Vite 打包成 /_astro/*.css 注入，
+ * 这里放一个空文件避免该结构性 <link> 触发 404（样式不依赖此文件）。
+ */
