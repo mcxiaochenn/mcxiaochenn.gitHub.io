@@ -182,7 +182,7 @@ let ctx = peoplecanvasEl ? peoplecanvasEl.getContext("2d") : undefined,
 
 function cleanupPeopleCanvas() {
   window.removeEventListener("resize", resize);
-  gsap.ticker.remove(render);
+  if (gsap.ticker) gsap.ticker.remove(render);
   crowd.forEach(function (e) {
     if (e.walk) e.walk.kill();
   });
@@ -197,7 +197,7 @@ function init() {
     createPeeps();
   }
   resize();
-  gsap.ticker.add(render);
+  if (gsap.ticker) gsap.ticker.add(render);
   window.addEventListener("resize", resize);
 }
 
@@ -214,7 +214,7 @@ if (!isbindPjax) {
       setTimeout(function () {
         if (!peoplecanvasEl) return;
         resize();
-        gsap.ticker.add(render);
+        if (gsap.ticker) gsap.ticker.add(render);
         window.addEventListener("resize", resize);
       }, 300);
     }

@@ -1,1 +1,0 @@
-import{t as e}from"./client.C5tmiID1.js";var t=window;t.pjax||={loadUrl(t,n={}){let r=n.history===!1?`replace`:`auto`;e(t,{history:r})}},document.addEventListener(`astro:page-load`,()=>{t.__pjaxCompleteRuns=t.__pjaxCompleteRuns||[],t.__pjaxCompleteRuns.push(location.pathname),document.dispatchEvent(new CustomEvent(`pjax:complete`,{detail:{path:location.pathname}}))});

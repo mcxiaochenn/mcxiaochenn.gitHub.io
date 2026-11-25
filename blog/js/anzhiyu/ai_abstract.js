@@ -282,16 +282,21 @@
   }
 
   function aiAbstractLocal() {
-    const strArr = postAI.split(",").map(item => item.trim());
-    if (strArr.length !== 1) {
+    // 消费层守卫：postAI 与上游 config_site.pug 同形后，ai: true 会落成字面 "true"
+    // ——那是布尔开关的序列化，不是摘要。剔除 "true" 候选；候选耗尽时回退 fill 描述
+    // （pageFillDescription），保证任何用户可见摘要都不出现字面 "true"。
+    const strArr = postAI.split(",").map(item => item.trim()).filter(item => item !== "true");
+    if (strArr.length > 1) {
       let randomIndex = Math.floor(Math.random() * strArr.length);
       while (randomIndex === lastAiRandomIndex) {
         randomIndex = Math.floor(Math.random() * strArr.length);
       }
       lastAiRandomIndex = randomIndex;
       startAI(strArr[randomIndex]);
-    } else {
+    } else if (strArr.length === 1) {
       startAI(strArr[0]);
+    } else {
+      startAI((pageFillDescription || "").trim());
     }
     setTimeout(() => {
       aiTitleRefreshIcon.style.opacity = "1";
